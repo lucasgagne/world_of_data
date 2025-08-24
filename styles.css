@@ -38,16 +38,17 @@ body {
 
   main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
     padding: 1rem;
   }
   
   main article {
+    height: 250px;           /* fixed height for charts */
     border: 1px solid #ddd;
-    height: 200px;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    overflow: hidden;        /* prevents charts from spilling out */
   }
