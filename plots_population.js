@@ -20,7 +20,7 @@ const container = document.getElementById('plots-container');
 // Loop through plots and create <img> elements dynamically
 plotFiles.forEach(file => {
   const img = document.createElement('img');
-  img.src = `plots/${file}`;
+  img.src = `plots/population/${file}`;
   img.alt = file;  // accessibility
   img.style.width = "300px";  // adjust size as needed
   img.style.margin = "10px";  // spacing
