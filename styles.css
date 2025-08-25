@@ -23,7 +23,7 @@ body {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #ddd;
-    background-color: #fafafa;
+    background-color: #ffffff;
   }
   .header h1 {
     font-size: 1.2rem;
@@ -51,4 +51,15 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;        /* prevents charts from spilling out */
+  }
+
+  .section-title {
+    background-color: #f0f0f0; /* light grey */
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 15px;       /* rounded corners */
+    width: fit-content;        /* shrink to content width */
+    margin: 20px auto;         /* center horizontally with spacing above/below */
+    font-size: 1.5em;
+    font-weight: bold;
   }
