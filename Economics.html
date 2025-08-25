@@ -33,15 +33,17 @@
 
   <section class="featured-plot-section">
     <h3 class="section-title">Featured Economics Graph</h3>
-    <div class="featured-plot-controls">
+    
+    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
+      <!-- Featured plot will appear here -->
+      <img id="featured-plot-img" src="" alt="Featured Population Plot" style="max-width: 600px;">
+    </div>
+  
+    <div class="featured-plot-controls" style="text-align: center; margin-top: 10px;">
       <label for="featured-select">Choose Graph:</label>
       <select id="featured-select">
         <!-- Options will be dynamically inserted -->
       </select>
-    </div>
-    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
-      <!-- Featured plot will appear here -->
-      <img id="featured-plot-img" src="" alt="Featured Economics Plot" style="max-width: 600px;">
     </div>
   </section>
   

@@ -19,30 +19,23 @@
 
   <header class="header">
     <h1>Population</h1>
-    <!-- 
-    <div class="filter-bar">
-      <label for="filter">Filter:</label>
-      <select id = "filter">
-        <option>All</option>
-        <option>Region 1</option>
-        <option>Region 2</option>
-      </select>
-    </div>
-    -->
+
   </header>
 
   <section class="featured-plot-section">
     <h3 class="section-title">Featured Population Graph</h3>
-    <div class="featured-plot-controls">
+    
+    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
+      <!-- Featured plot will appear here -->
+      <img id="featured-plot-img" src="" alt="Featured Population Plot" style="max-width: 600px;">
+    </div>
+  
+    <div class="featured-plot-controls" style="text-align: center; margin-top: 10px;">
       <label for="featured-select">Choose Graph:</label>
       <select id="featured-select">
         <!-- Options will be dynamically inserted -->
       </select>
     </div>
-    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
-      <!-- Featured plot will appear here -->
-      <img id="featured-plot-img" src="" alt="Featured Population Plot" style="max-width: 600px;">
-    </div>
   </section>
   
   <section class="population-age-plot-section">
@@ -51,27 +44,30 @@
       <!-- Plots will be dynamically inserted here -->
     </main>
   </section>
- 
-  <section class="population-age-plot-section">
+
+
+  <section class="population-growth-plot-section">
     <!-- Repeating this section as a place holder as I will make this a new section -->
-    <h3 class="section-title">Population Age Distribution</h3>
-    <main id="plots-container">
+    <h3 class="section-title">Population Over Time</h3>
+    <main id="plots-container-growth">
       <!-- Plots will be dynamically inserted here -->
     </main>
   </section>
 
-  <section class="population-age-plot-section">
+  <section class="population-growth-plot-section">
     <!-- Repeating this section as a place holder as I will make this a new section -->
-    <h3 class="section-title">Population Age Distribution</h3>
-    <main id="plots-container">
+    <h3 class="section-title">Median Age Over Time</h3>
+    <main id="plots-container-median-age">
       <!-- Plots will be dynamically inserted here -->
     </main>
   </section>
+
 
   
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots_population.js"></script>
   <script src="plots_population_featured.js"></script>
-
+  <script src="plots_population.js"></script>
+  <script src="plots_population_growth.js"></script>
+  <script src="plots_population_median_age.js"></script>
 </body>
 </html>
