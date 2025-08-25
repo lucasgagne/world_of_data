@@ -29,17 +29,30 @@
     </div>
   </header>
 
+  <section class="featured-plot-section">
+    <h3>Featured Population Graph</h3>
+    <div class="featured-plot-controls">
+      <label for="featured-select">Choose Graph:</label>
+      <select id="featured-select">
+        <!-- Options will be dynamically inserted -->
+      </select>
+    </div>
+    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
+      <!-- Featured plot will appear here -->
+      <img id="featured-plot-img" src="" alt="Featured Population Plot" style="max-width: 600px;">
+    </div>
+  </section>
   
-
-  <h3>Population Age Distribution</h3>
-  <main id="plots-container">
-    
-    <!-- Plots will be dynamically inserted here -->
-  </main>
-  
+  <section class="population-age-plot-section">
+    <h3>Population Age Distribution</h3>
+    <main id="plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
  
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="plots_population.js"></script>
+  <script src="plots_population_featured.js"></script>
 
 </body>
 </html>
