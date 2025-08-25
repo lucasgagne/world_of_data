@@ -13,27 +13,65 @@
       <a href="Population.html">Population</a>
       <a href="Economics.html">Economics</a>
       <!-- <a href="Demographics.html">Demographics</a> -->
+
     </nav>
   </header>
 
   <header class="header">
     <h1>Economics</h1>
+    <!-- 
     <div class="filter-bar">
       <label for="filter">Filter:</label>
-      <select id="filter">
+      <select id = "filter">
         <option>All</option>
         <option>Region 1</option>
         <option>Region 2</option>
       </select>
     </div>
+    -->
   </header>
 
-  <main id="plots-container">
-    <!-- Economics plots will be dynamically inserted here -->
-  </main>
+  <section class="featured-plot-section">
+    <h3 class="section-title">Featured Economics Graph</h3>
+    <div class="featured-plot-controls">
+      <label for="featured-select">Choose Graph:</label>
+      <select id="featured-select">
+        <!-- Options will be dynamically inserted -->
+      </select>
+    </div>
+    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
+      <!-- Featured plot will appear here -->
+      <img id="featured-plot-img" src="" alt="Featured Economics Plot" style="max-width: 600px;">
+    </div>
+  </section>
+  
+  <section class="economics-gdp-plot-section">
+    <h3 class="section-title">GDP Over Time</h3>
+    <main id="plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+ 
+  <section class="economics-gdp-plot-section">
+    <!-- repeated as a placeholder-->
+    <h3 class="section-title">GDP Over Time</h3>
+    <main id="plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+
+  <section class="economics-gdp-plot-section">
+    <!-- repeated as a placeholder-->
+    <h3 class="section-title">GDP Over Time</h3>
+    <main id="plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+
   
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="plots_economics.js"></script>
+  <script src="plots_economics_featured.js"></script>
 
 </body>
 </html>
