@@ -1,0 +1,18 @@
+[
+  {
+    "folder": "plots/land",
+    "file": "tallest_mountains.png"
+  },
+  {
+    "folder": "plots/land",
+    "file": "avg_elevation.png"
+  },
+  {
+    "folder": "plots/land",
+    "file": "area_squares.png"
+  },
+  {
+    "folder": "plots/land",
+    "file": "area_circles.png"
+  }
+]

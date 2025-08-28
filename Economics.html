@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Data Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="Population.html">Population</a>
+      <a href="Economics.html">Economics</a>
+      <a href="Land.html">Land</a>
+      <!-- <a href="Demographics.html">Demographics</a> -->
+
+    </nav>
+  </header>
+
+  <header class="header">
+    <h1>Economics</h1>
+    <!-- 
+    <div class="filter-bar">
+      <label for="filter">Filter:</label>
+      <select id = "filter">
+        <option>All</option>
+        <option>Region 1</option>
+        <option>Region 2</option>
+      </select>
+    </div>
+    -->
+  </header>
+
+  <section class="featured-plot-section">
+    <h3 class="section-title">Featured Economics Graph</h3>
+    
+    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
+      <!-- Featured plot will appear here -->
+      <img id="featured-plot-img" src="" alt="Featured Population Plot" style="max-width: 600px;">
+    </div>
+  
+    <div class="featured-plot-controls" style="text-align: center; margin-top: 10px;">
+      <label for="featured-select">Choose Graph:</label>
+      <select id="featured-select">
+        <!-- Options will be dynamically inserted -->
+      </select>
+    </div>
+  </section>
+  
+  <section class="economics-gdp-plot-section">
+    <h3 class="section-title">GDP Over Time</h3>
+    <main id="plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+ 
+  <section class="economics-unemployment-plot-section">
+    <!-- repeated as a placeholder-->
+    <h3 class="section-title">Unemployment Over Time</h3>
+    <main id="unemployment-plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+
+  <section class="economics-inflation-plot-section">
+    <!-- repeated as a placeholder-->
+    <h3 class="section-title">Inflation (Consumer Prices) Over Time</h3>
+    <main id="inflation-plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+
+ 
+
+  
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="plots_economics_featured.js"></script>
+  <script src="plots_economics.js"></script>
+  <script src="plots_economics_unemployment.js"></script>
+  <script src="plots_economics_inflation.js"></script>
+
+
+</body>
+</html>

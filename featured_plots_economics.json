@@ -1,0 +1,118 @@
+[
+  {
+    "folder": "plots/economics",
+    "file": "WLD_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "MEX_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "JPN_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "USA_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "DEU_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "FRA_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "GBR_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "CAN_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "IND_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "ITA_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "BRA_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "CHN_gdp.png"
+  },
+  {
+    "folder": "plots/economics",
+    "file": "RUS_gdp.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "WLD_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "BRA_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "CAN_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "MEX_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "DEU_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "CHN_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "RUS_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "JPN_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "USA_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "FRA_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "IND_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "GBR_inflation.png"
+  },
+  {
+    "folder": "plots/inflation",
+    "file": "ITA_inflation.png"
+  },
+  {
+    "folder": "plots/unemployment",
+    "file": "unemployment.png"
+  },
+  {
+    "folder": "plots/unemployment",
+    "file": "unemployment_europe.png"
+  },
+  {
+    "folder": "plots/unemployment",
+    "file": "unemployment_asia.png"
+  }
+]

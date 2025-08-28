@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Data Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="Population.html">Population</a>
+      <a href="Economics.html">Economics</a>
+      <a href="Land.html">Land</a>
+      <!-- <a href="Demographics.html">Demographics</a> -->
+
+    </nav>
+  </header>
+
+  <header class="header">
+    <h1>Population</h1>
+
+  </header>
+
+  <section class="featured-plot-section">
+    <h3 class="section-title">Featured Population Graph</h3>
+    
+    <div id="featured-plot-container" style="text-align: center; margin-top: 20px;">
+      <!-- Featured plot will appear here -->
+      <img id="featured-plot-img" src="" alt="Featured Population Plot" style="max-width: 600px;">
+    </div>
+  
+    <div class="featured-plot-controls" style="text-align: center; margin-top: 10px;">
+      <label for="featured-select">Choose Graph:</label>
+      <select id="featured-select">
+        <!-- Options will be dynamically inserted -->
+      </select>
+    </div>
+  </section>
+  
+  <section class="population-age-plot-section">
+    <h3 class="section-title">Population Age Distribution</h3>
+    <main id="plots-container">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+
+
+  <section class="population-growth-plot-section">
+    <!-- Repeating this section as a place holder as I will make this a new section -->
+    <h3 class="section-title">Population Over Time</h3>
+    <main id="plots-container-growth">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+
+  <section class="population-growth-plot-section">
+    <!-- Repeating this section as a place holder as I will make this a new section -->
+    <h3 class="section-title">Median Age Over Time</h3>
+    <main id="plots-container-median-age">
+      <!-- Plots will be dynamically inserted here -->
+    </main>
+  </section>
+
+
+  
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="plots_population_featured.js"></script>
+  <script src="plots_population.js"></script>
+  <script src="plots_population_growth.js"></script>
+  <script src="plots_population_median_age.js"></script>
+</body>
+</html>
+
+
+<!--Make third page 'land' largest country by area, most dense areas, 
+countries by tallest mountains, highest average elevation, etc
+-->
